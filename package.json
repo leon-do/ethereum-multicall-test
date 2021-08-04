@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  },
+  "name": "multiscript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ethereum-multicall": "^2.7.0",
+    "web3": "^1.5.0"
+  }
+}
